@@ -1,0 +1,13 @@
+#SimpleNode
+class: Fathom\Play\SimpleNode
+auto_id: ~
+fields:
+    username:
+        type: string
+        length: 255
+    klout:
+        type: integer
+        negative: false
+    timestamp:
+        type: integer
+        negative: false

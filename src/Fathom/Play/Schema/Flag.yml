@@ -1,0 +1,10 @@
+#Flag.yml
+class: Fathom\Play\Flag
+auto_id: ~
+fields:
+  country:
+    type: string
+    length: 255
+  stock:
+    type: integer
+    negative: false

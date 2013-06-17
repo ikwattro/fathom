@@ -1,0 +1,10 @@
+#SimpleNode
+class: Fathom\tests\Schema\Parser\Node\SimpleNode
+auto_id: ~
+fields:
+    username:
+        type: string
+        length: 255
+    klout:
+        type: integer
+        negative: false

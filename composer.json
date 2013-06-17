@@ -1,0 +1,22 @@
+{
+	"require": {
+		"symfony/yaml": "dev-master",
+		"symfony/console": "dev-master",
+		"symfony/finder": "dev-master",
+		"monolog/monolog": "~1.3",
+		"kriswallsmith/buzz": "dev-master",
+		"guzzle/guzzle": "dev-master",
+		"lootils/uuid": "dev-master",
+		"cedriclombardot/twig-generator": "dev-master"
+	},
+	"require-dev":{
+		"phpunit/phpunit": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Neoxygen": "src/",
+			"Fathom": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
