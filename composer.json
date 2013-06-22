@@ -1,4 +1,10 @@
 {
+	"name": "kwattro/fathom",
+    "type": "library",
+    "description": "Lightweight PHP Neo4J OGM",
+    "keywords": ["neo4j", "ogm", "php"],
+    "time": "2013-06-22",
+    "license": "MIT",
 	"require": {
 		"symfony/yaml": "dev-master",
 		"symfony/console": "dev-master",
@@ -18,5 +24,6 @@
 			"Fathom": "src/"
 		}
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"bin": ["bin/fathom"]
 }
