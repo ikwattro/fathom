@@ -7,38 +7,10 @@
 
 namespace Fathom\tests\Schema\Parser\Node;
 
+use Fathom\tests\Schema\Parser\Node\GeneratedMapping\SimpleNodeMapper;
 
-class SimpleNode
+class SimpleNode extends SimpleNodeMapper
 {
-    protected $username;
-
-    protected $klout;
-
-
-    public function __construct()
-    {
-
-    }
-
-    public function setUsername($v)
-    {
-        $this->username = $v;
-    }
-
-    public function getUsername()
-    {
-        return $this->username;
-    }
-
-    public function setKlout($v)
-    {
-        $this->klout = $v;
-    }
-
-    public function getKlout()
-    {
-        return $this->klout;
-    }
 
 
 }

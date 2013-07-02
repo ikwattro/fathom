@@ -99,7 +99,7 @@ class MapperGeneratorCommand extends Command{
                 $file->setYamlSchema($yaml);
             } catch (\InvalidArgumentException $e) {
                 $errors[] = array(
-                    'file'  => $file['name'],
+                    'file'  => $file->getFilename(),
                     'error' => $e->getMessage(),
                 );
             }
